@@ -1,7 +1,7 @@
 20260813:
 Added - Changelog
 Added - Hanime download support for up to 720p
-Added - Retry setting, failed downloads move to the back of the queue to ne tried again
+Added - Retry setting, failed downloads move to the back of the queue to be tried again
 Added - Vidstream support for anikototv
 Added - Spanish subtitles for vidstream anikototv where available
 Added - Portuguese (Brazil) subtitles for vidstream anikototv where available
