@@ -1,0 +1,11 @@
+20260813:
+Added - Changelog
+Added - Hanime download support for up to 720p
+Added - Retry setting, failed downloads move to the back of the queue to ne tried again
+Added - Vidstream support for anikototv
+Added - Spanish subtitles for vidstream anikototv where available
+Added - Portuguese (Brazil) subtitles for vidstream anikototv where available
+Added - Spanish (native American) subtitles for vidstream anikototv where available
+Bugfix - Kiwi-stream not working because of a website update
+Bugfix - Highlighting of chevron settings values would only disappear when clicking on the entry of this setting
+Bugfix - Updated version would not start automatically (should be fixed, will take effect next version)
