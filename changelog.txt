@@ -1,4 +1,4 @@
-20260813:
+20260814:
 Added - Changelog
 Added - Hanime download support for up to 720p
 Added - Retry setting, failed downloads move to the back of the queue to ne tried again
