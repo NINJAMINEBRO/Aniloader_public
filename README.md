@@ -186,9 +186,7 @@ the episode name (if available) and the overall episode number from that series.
 
 This is a closed source Program that I "NMB" have made on my own with assistance of multiple tools including AI.
 
-I do allow anyone to copy this program and redistribute and or sell this program as their own.
-
 Please redirect anyone you share this program with to my itch.io page which is the official download page as of right now, although the program is also on my GitHub.
 
-I am planning on making everything open source at some point and changing from an "all rights reserved" License to a "MIT" License when doing so.
+I am planning on making everything open source in a few days.
 
