@@ -1,0 +1,46 @@
+# Aniloader by NMB - Python dependencies
+#
+# Needs Python 3.10 or newer (the code annotates with `str | None`, which is
+# evaluated at runtime); developed and built on 3.12.
+#
+#     python -m venv .venv
+#     .venv\Scripts\pip install -r requirements.txt
+#
+# Versions are pinned exactly.  This is a shipped application rather than a
+# library, so a build wants the same dependency set every time; relax a pin to
+# `>=` only when you mean to track that package.
+#
+# Only what the code imports directly is listed - shiboken6, soupsieve,
+# selenium, urllib3 and the rest arrive as dependencies of the entries below
+# and are left to pip to resolve.
+
+# --- GUI ---------------------------------------------------------------
+PySide6==6.11.1
+
+# --- HTTP --------------------------------------------------------------
+requests==2.34.2          # synchronous fetches (downloaders, updater, titles)
+aiohttp==3.14.3           # concurrent page/API fetches on the site pages
+
+# --- Scraping ----------------------------------------------------------
+beautifulsoup4==4.14.3
+lxml==6.1.1               # the parser BeautifulSoup(..., "lxml") asks for by
+                          # name; beautifulsoup4 does not pull it in itself
+seleniumbase==4.49.5      # undetected headless Chrome, for the pages behind
+                          # Cloudflare and for anikototv's server list
+
+# --- Media / crypto ----------------------------------------------------
+m3u8==6.0.0               # HLS playlist parsing in downloaders/common.py
+pycryptodome==3.23.0      # imported as `Crypto` - AES for the hanime handshake
+                          # and Vidstream.  NOT pycryptodomex, whose import
+                          # name is `Cryptodome` and would not be found.
+
+# --- Build -------------------------------------------------------------
+# Only needed to produce the .exe ("Aniloader by NMB.spec"); an install that
+# just runs `python main.py` can leave this out.
+pyinstaller==6.22.2
+
+# --- Not installed by pip ----------------------------------------------
+# ffmpeg.exe and ffprobe.exe.
+# seleniumbase's undetected mode drives a real Google Chrome, which must be
+# installed on the machine - aniworld's Cloudflare workaround reports this
+# when it is missing.
