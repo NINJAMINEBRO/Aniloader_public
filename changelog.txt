@@ -1,7 +1,17 @@
+20260928:
+Added - Full AnimePahe support, titles that belong together are bundled in search results
+Added - French, Indonesian, Thai and vietnamese subtitles for Animepahe and Anikototv
+Added - Support tab in Settings that link to my discord, GitHub and Itch page
+Added - Language setting for this program (English, German, French, Spanish, Portuguese, Indonesian, Thai, Vietnamese)
+Added - Window popup to cancel a shutdown when one is scheduled
+Changed - Seasons from anikototv are now bundled -> 2nd menu season range now possible and less clutter in search bar
+Changed - Defaults for Providers, Languages and Search bars
+Changed - README updated
+
 20260914:
 Added - Changelog
 Added - Hanime download support for up to 720p
-Added - Retry setting, failed downloads move to the back of the queue to ne tried again
+Added - Retry setting, failed downloads move to the back of the queue to be tried again
 Added - Vidstream support for anikototv
 Added - Spanish subtitles for vidstream anikototv where available
 Added - Portuguese (Brazil) subtitles for vidstream anikototv where available
