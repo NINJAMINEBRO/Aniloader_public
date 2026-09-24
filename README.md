@@ -1,8 +1,8 @@
-**Handbook for Aniloader ver 0.4 Open Beta**
+**Handbook for Aniloader ver 0.5 Open Beta**
 
 *I might forget to update this for some versions, but it shouldn't really change much. If you have any*
 
-*question on this program, just message me via discord.*
+*questions on this program, just message me via discord.*
 
 
 
@@ -68,11 +68,19 @@ If the check cannot reach GitHub nothing is shown at all, the program just carri
 
 **Settings page features:**
 
-The settings page is split into 4 Tabs.
+The settings page is split into 5 Tabs.
 
 ***General:***
 
 Here the you can set settings that I consider general.
+
+App language sets the language of the program itself: English (the default), German, Spanish, French,
+
+Portuguese (Brazil), Vietnamese, Indonesian or Thai. Every language is listed under its own name so you can always
+
+find your way back. The new language is used from the next start of the program, a note under the selection reminds you.
+
+Series, season and episode names from the websites and the names of your downloaded folders and files are never translated.
 
 Max quality and Min quality set the resolution range you are willing to download.
 
@@ -87,6 +95,12 @@ Min quality at 360p keeps the old behaviour of always taking whatever is availab
 Setting both to the same tier means only that exact resolution is accepted.
 
 Shutdown when done will turn off the PC after all downloads have finished.
+
+One minute before, a window pops up on top of everything, even a game running in fullscreen,
+
+with a button to cancel the shutdown. Closing that window or doing nothing lets the PC shut down as planned.
+
+Keys do nothing in that window, so it can only be cancelled or closed with a click, not by accident while typing or playing.
 
 Simultaneous DLs can be increased up to 20 and tells the program how many downloads can run at once
 
@@ -154,9 +168,20 @@ except there was some update and should be changed, which will probably be annou
 Here you can toggle the languages you want to use and change their priority.
 I recommend only having the languages you actually want turned on in your preferred order.
 Not all websites support all languages.
-On anikototv the sub language is embedded into Vidstream downloads as a subtitle track
+On anikototv and animepahe the sub language is embedded into Vidstream downloads as a subtitle track
 and also saved as an .srt file with the same name next to the video (for players like Windows Media Player),
-Portuguese and Spanish subs are only available there.
+Portuguese, Spanish, French, Indonesian, Thai and Vietnamese subs are only available there,
+and only for episodes that actually have that subtitle track.
+
+
+
+***Support:***
+
+Links to my Discord server (questions, bug reports and announcements), the GitHub page of this project
+
+(source code and releases) and the itch.io page (the official download page).
+
+Clicking a button opens the link in your browser, the address is also shown underneath so you can copy it.
 
 
 
@@ -184,7 +209,7 @@ the episode name (if available) and the overall episode number from that series.
 
 **INFO:**
 
-This is a closed source Program that I "NMB" have made on my own with assistance of multiple tools including AI.
+This is a partial closed/open source Program that I "NMB" have made on my own with assistance of multiple tools including AI.
 
 Please redirect anyone you share this program with to my itch.io page which is the official download page as of right now, although the program is also on my GitHub.
 
