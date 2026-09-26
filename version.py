@@ -9,7 +9,7 @@ and publish the same number to that file.
 """
 
 NAME: str = "0.5 Open Beta"
-BUILD: int = 20260928
+BUILD: int = 20260926
 
 
 def display() -> str:

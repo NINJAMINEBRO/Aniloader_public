@@ -1,4 +1,4 @@
-20260928:
+20260926:
 Added - Full AnimePahe support, titles that belong together are bundled in search results
 Added - French, Indonesian, Thai and vietnamese subtitles for Animepahe and Anikototv
 Added - Support tab in Settings that link to my discord, GitHub and Itch page

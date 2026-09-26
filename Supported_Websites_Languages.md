@@ -55,21 +55,59 @@ Part of the video, same as aniworld.to. No separate subtitle file.
 - Japanese · Portuguese (Brazil) Sub
 - Japanese · Spanish Sub
 - Japanese · Spanish (Latin America) Sub
+- Japanese · German Sub
+- Japanese · French Sub
+- Japanese · Indonesian Sub
+- Japanese · Thai Sub
+- Japanese · Vietnamese Sub
 
 **Subtitles**
-This is the only website with real, selectable subtitle tracks, and what you get depends
-on which provider the episode is downloaded from:
+Together with animepahe.ch this website has real, selectable subtitle tracks, and what
+you get depends on which provider the episode is downloaded from:
 
 - **Vidstream**: the sub language is embedded into the video as its default subtitle
   track *and* saved as an `.srt` file with the same name next to the video, so players
   that ignore built-in tracks (Windows Media Player among them) still show it.
-  Available tracks: English, Portuguese (Brazil), Spanish, Spanish (Latin America).
+  Available tracks: English, Portuguese (Brazil), Spanish, Spanish (Latin America),
+  German, French, Indonesian, Thai, Vietnamese.
 - **Kiwi-Stream**: subtitles are burned into the video and are always English. The
-  Portuguese and Spanish sub languages are never served here.
+  other sub languages are never served here.
 
 A non-English sub language is only downloaded when that episode actually offers the
 track. If it does not, that combination is skipped and the next enabled
 language/provider is tried, so you never get an episode with the wrong subtitles.
+
+---
+
+## animepahe.ch
+**WARNING: CAN BE EXTREMELY SLOW**
+
+**Languages**
+- Japanese · English Sub
+- English Dub
+- Japanese · German Sub
+- Japanese · French Sub
+- Japanese · Indonesian Sub
+- Japanese · Thai Sub
+- Japanese · Vietnamese Sub
+- Japanese · Portuguese (Brazil) Sub
+- Japanese · Spanish Sub
+- Japanese · Spanish (Latin America) Sub
+
+**Subtitles**
+What you get depends on which of the two kinds of episode page a show has:
+
+- **Vidstream** (the MegaPlay player, most shows): works exactly like Vidstream on
+  anikototv.to - the sub language is embedded as a subtitle track and saved as an `.srt`
+  next to the video. Which tracks exist depends on the show, from English alone to all
+  of the languages above.
+- **Kiwi-Stream** and **Blogger** (shows with a download box under a Blogger player):
+  subtitles are burned into the video and are always English.
+
+Dubs are listed on the site as their own "(Dub)" entries. Each season is taken subbed or
+dubbed, whichever comes first in your language order and exists for it. As on
+anikototv.to, a non-English sub language is only downloaded when the episode actually
+offers the track.
 
 ---
 

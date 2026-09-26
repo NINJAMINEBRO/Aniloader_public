@@ -1,0 +1,131 @@
+{
+  "aniworld.to": true,
+  "s.to": false,
+  "bs.to": false,
+  "anikototv.to": false,
+  "hanime.tv": false,
+  "animepahe.ch": false,
+  "aniworld.to_cache": true,
+  "s.to_cache": true,
+  "bs.to_cache": true,
+  "anikototv.to_cache": true,
+  "hanime.tv_cache": true,
+  "animepahe.ch_cache": true,
+  "cache_days": 14,
+  "download_path": "D:/AnimeTestFolder",
+  "simultaneous_downloads": 3,
+  "download_delay": 3,
+  "failed_retries": 0,
+  "shutdown_when_done": false,
+  "max_quality": "1080p",
+  "min_quality": "720p",
+  "theme": "Neon",
+  "neon_color": "Purple",
+  "app_language": "English",
+  "providers": [
+    {
+      "name": "VOE",
+      "enabled": true
+    },
+    {
+      "name": "Vidmoly",
+      "enabled": true
+    },
+    {
+      "name": "Doodstream",
+      "enabled": true
+    },
+    {
+      "name": "SpeedFiles",
+      "enabled": true
+    },
+    {
+      "name": "Vidoza",
+      "enabled": true
+    },
+    {
+      "name": "Vidstream",
+      "enabled": true
+    },
+    {
+      "name": "Kiwi-Stream",
+      "enabled": true
+    },
+    {
+      "name": "Hanime",
+      "enabled": true
+    },
+    {
+      "name": "Filemoon",
+      "enabled": false
+    },
+    {
+      "name": "Blogger",
+      "enabled": true
+    }
+  ],
+  "languages": [
+    {
+      "name": "Japanese \u00b7 German Sub",
+      "enabled": true
+    },
+    {
+      "name": "German Dub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 English Sub",
+      "enabled": true
+    },
+    {
+      "name": "English Dub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 Portuguese (Brazil) Sub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 Spanish Sub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 Spanish (Latin America) Sub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 French Sub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 Indonesian Sub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 Thai Sub",
+      "enabled": false
+    },
+    {
+      "name": "Japanese \u00b7 Vietnamese Sub",
+      "enabled": false
+    }
+  ],
+  "subtitles": [
+    {
+      "name": "English",
+      "enabled": true
+    },
+    {
+      "name": "Portuguese (Brazil)",
+      "enabled": false
+    },
+    {
+      "name": "Spanish",
+      "enabled": false
+    },
+    {
+      "name": "Spanish (Latin America)",
+      "enabled": false
+    }
+  ]
+}
