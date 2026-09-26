@@ -212,6 +212,3 @@ the episode name (if available) and the overall episode number from that series.
 This is a partial closed/open source Program that I "NMB" have made on my own with assistance of multiple tools including AI.
 
 Please redirect anyone you share this program with to my itch.io page which is the official download page as of right now, although the program is also on my GitHub.
-
-I am planning on making everything open source in a few days.
-
